@@ -13,9 +13,6 @@ def print_hi(name):
 if __name__ == '__main__':
     print_hi('PyCharm')
 
-
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
-
-  f = input("enter your name")
-  y:  = input("enter your age")
-  x = input("enter your Bi")
+print("raghad")
+print("raghad")
