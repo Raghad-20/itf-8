@@ -1,14 +1,39 @@
+num1 = int(input("enter number"))
+num2 = int(input("enter number"))
 
-num1 = input("Enter First Number")
-num2 = input("Enter Second Number")
-def add(x, y):
-    return x + y
-def subtract(x, y):
-    return x - y
-def multiply(x, y):
-    return x * y
-def divide(x, y):
-    return x / y
+def square_area(base):
+    return base*4
+def trinagle_area(base,hight):
+    return 0.5*base*hight
+def rectangular_area(base,hight):
+    return base*hight
 
-print(add(num1, num2) ,subtract(num1,num2), multiply(num1,num2),divide(num1,num2))
+arae = square_area(num1)
+print( "square_area is ", arae)
+
+if arae >= 10:
+    print("the erae large")
+elif arae <=0:
+    print("input wrong")
+else:
+    print(" the arae small")
+
+
+
+
+
+# avarege =60
+#
+# if avarege >= 80:
+#
+#     print("very good")
+# elif avarege >=60:
+#      print("good")
+# else:
+#     print("hello")
+
+
+
+
+
 
