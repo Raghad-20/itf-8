@@ -7,7 +7,7 @@ def trinagle_area(base,hight):
     return 0.5*base*hight
 def rectangular_area(base,hight):
     return base*hight
-
+print(square_area(num1), trinagle_area(num1,num2), rectangular_area(num1,num2))
 arae = square_area(num1)
 print( "square_area is ", arae)
 
