@@ -12,7 +12,7 @@ arae = square_area(num1)
 print( "square_area is ", arae)
 
 if arae >= 10:
-    print("the erae large")
+    print("the arae large")
 elif arae <=0:
     print("input wrong")
 else:
